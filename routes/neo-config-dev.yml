@@ -1,0 +1,9 @@
+server:
+  port: 8020
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.27.34.217:8761/eureka/
+spring:
+  application:
+    name: service-zuul
