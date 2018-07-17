@@ -1,9 +1,14 @@
-server:
-  port: 8020
-eureka:
-  client:
-    service-url:
-      defaultZone: http://172.27.34.217:8761/eureka/
-spring:
-  application:
-    name: service-zuul
+zuul:
+  routes:
+    first:
+      path: /first/**
+      url: http://first.example.com
+    second:
+      path: /second/**
+      url: forward:/second
+    third:
+      path: /third/**
+      url: forward:/3rd # 本地的转发
+    legacy:
+      path: /**
+      url: http://legacy.example.com
