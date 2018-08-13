@@ -1,0 +1,3 @@
+security:
+  key: callcent1
+  utl: /token-service/login
