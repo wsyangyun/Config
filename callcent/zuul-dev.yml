@@ -1,3 +1,6 @@
 security:
   key: callcent1
-  login-url: /security/auth/login
+  login-url: /security/auth/login #登录url
+  token-key: CALLCENT_TOKEN #jwt存放在redis中的key
+  jwi-key: CALLCENT_JWI #jwi存放在redis的key
+  token-timeout: 7200 #jwt token过期时间单位秒
