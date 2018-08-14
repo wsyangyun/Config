@@ -1,4 +1,5 @@
 
 security:
   key: callcent1
-  utl: /security/login
+  login-url: /security/login
+  token-key: CALLCENT_TOKEN
