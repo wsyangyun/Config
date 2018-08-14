@@ -3,3 +3,4 @@ security:
   key: callcent1
   login-url: /security/login
   token-key: CALLCENT_TOKEN
+  jwi-key: CALLCENT_JWI
