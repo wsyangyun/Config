@@ -5,3 +5,5 @@ security:
   token-key: CALLCENT_TOKEN #jwt存放在redis中的key
   jwi-key: CALLCENT_JWI #jwi存放在redis的key
   token-timeout: 7200 #jwt token过期时间单位秒
+  appids: M0101,M0102,M0103,M0104,M0105,M0106,M0107
+  publicKey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3pKWL10PksGUWjzIkrguIDbr98kwBy05jdcD/KdsmCQU67OU3g5L1Vfdt3kPwOCbJVf4iJ1vCcvZ22mh9HO8+XygLaKta0RB45D8W9xVeEbALVUhBP4V8bm7b8sR7GiJGNi7W49OzWzVdiSSgkthWFAOy1yv24ohH402n86N+JQIDAQAB
